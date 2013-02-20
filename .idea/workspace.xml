@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9fa6c86-6845-4469-82ab-0bd6efe04c4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheets/app.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Mobile-Buoy-Data.iml" afterPath="$PROJECT_DIR$/.idea/Mobile-Buoy-Data.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/bullets.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/left-arrow-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/left-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/mask-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/pause-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/right-arrow-small.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/right-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/rotator-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/timer-black.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/base.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/.sass-cache/9e599136195c0799f8d3f8e1facabf68a645bd19/app.scssc" afterPath="$PROJECT_DIR$/stylesheets/.sass-cache/9e599136195c0799f8d3f8e1facabf68a645bd19/app.scssc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/app.css" afterPath="$PROJECT_DIR$/stylesheets/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/app.scss" afterPath="$PROJECT_DIR$/stylesheets/app.scss" />
     </list>
     <ignored path="Mobile-Buoy-Data.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +37,27 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="32" selection-start="2921" selection-end="2923" vertical-scroll-proportion="0.29243937">
-              <folding />
+            <state line="7" column="48" selection-start="254" selection-end="254" vertical-scroll-proportion="-4.48">
+              <folding>
+                <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.scss" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stylesheets/app.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="123" column="24" selection-start="2309" selection-end="2309" vertical-scroll-proportion="0.783105">
+              <folding>
+                <element signature="e#364#379#0" expanded="false" />
+                <element signature="e#414#468#0" expanded="false" />
+                <element signature="e#485#503#0" expanded="false" />
+                <element signature="e#836#1565#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -36,40 +65,10 @@
       <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
+            <state line="42" column="0" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1361082145000" expanded="true" signature="111:276" placeholder="{...}" />
-                <marker date="1361082145000" expanded="true" signature="278:305" placeholder="{...}" />
-                <marker date="1361082145000" expanded="true" signature="333:339" placeholder="{...}" />
-                <marker date="1361082145000" expanded="true" signature="383:402" placeholder="{...}" />
-                <marker date="1361082145000" expanded="true" signature="423:631" placeholder="{...}" />
-                <marker date="1361082145000" expanded="true" signature="913:1071" placeholder="{...}" />
-                <marker date="1361082145000" expanded="true" signature="1100:1173" placeholder="{...}" />
+                <marker date="1361315542000" expanded="true" signature="607:674" placeholder="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.scss" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/app.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="12" selection-start="1503" selection-end="1503" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#194#240#0" expanded="false" />
-                <element signature="e#258#309#0" expanded="false" />
-                <element signature="e#337#352#0" expanded="false" />
-                <element signature="e#387#441#0" expanded="false" />
-                <element signature="e#458#476#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/base.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -111,15 +110,15 @@
         <option value="$PROJECT_DIR$/grunt.js" />
         <option value="$PROJECT_DIR$/stylesheets/app.css" />
         <option value="$PROJECT_DIR$/stylesheets/base.css" />
-        <option value="$PROJECT_DIR$/stylesheets/app.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/stylesheets/app.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1440" />
-    <option name="height" value="874" />
+    <option name="width" value="1680" />
+    <option name="height" value="1024" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -189,8 +188,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -236,13 +235,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
+    <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19266056" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16475558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -314,13 +313,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="37" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1361082145000" expanded="true" signature="111:276" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="278:305" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="333:339" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="383:402" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="423:631" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="913:1071" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="1100:1173" placeholder="{...}" />
+            <marker date="1361315542000" expanded="true" signature="607:674" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -329,19 +322,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="21" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#194#240#0" expanded="false" />
-            <element signature="e#258#309#0" expanded="false" />
-            <element signature="e#337#352#0" expanded="false" />
-            <element signature="e#387#441#0" expanded="false" />
-            <element signature="e#458#476#0" expanded="false" />
+            <element signature="e#364#379#0" expanded="false" />
+            <element signature="e#414#468#0" expanded="false" />
+            <element signature="e#485#503#0" expanded="false" />
+            <element signature="e#836#1565#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -362,7 +347,9 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="0" selection-start="1462" selection-end="2699" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -370,13 +357,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="78" column="17" selection-start="1505" selection-end="1505" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1361082145000" expanded="true" signature="111:276" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="278:305" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="333:339" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="383:402" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="423:631" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="913:1071" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="1100:1173" placeholder="{...}" />
+            <marker date="1361315542000" expanded="true" signature="607:674" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -384,7 +365,9 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="69" column="27" selection-start="2506" selection-end="2506" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -392,13 +375,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="21" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1361082145000" expanded="true" signature="111:276" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="278:305" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="333:339" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="383:402" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="423:631" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="913:1071" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="1100:1173" placeholder="{...}" />
+            <marker date="1361315542000" expanded="true" signature="607:674" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -424,43 +401,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="524" selection-end="524" vertical-scroll-proportion="0.0">
+        <state line="42" column="0" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1361082145000" expanded="true" signature="111:276" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="278:305" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="333:339" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="383:402" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="423:631" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="913:1071" placeholder="{...}" />
-            <marker date="1361082145000" expanded="true" signature="1100:1173" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="12" selection-start="1503" selection-end="1503" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#194#240#0" expanded="false" />
-            <element signature="e#258#309#0" expanded="false" />
-            <element signature="e#337#352#0" expanded="false" />
-            <element signature="e#387#441#0" expanded="false" />
-            <element signature="e#458#476#0" expanded="false" />
+            <marker date="1361315542000" expanded="true" signature="607:674" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="32" selection-start="2921" selection-end="2923" vertical-scroll-proportion="0.29243937">
-          <folding />
+        <state line="7" column="48" selection-start="254" selection-end="254" vertical-scroll-proportion="-4.48">
+          <folding>
+            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="123" column="24" selection-start="2309" selection-end="2309" vertical-scroll-proportion="0.783105">
+          <folding>
+            <element signature="e#364#379#0" expanded="false" />
+            <element signature="e#414#468#0" expanded="false" />
+            <element signature="e#485#503#0" expanded="false" />
+            <element signature="e#836#1565#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

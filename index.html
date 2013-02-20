@@ -1,40 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width"/>
-    <title>SB Mobile Buoy Data</title>
+    <title>SB Swell Check</title>
     <link rel="stylesheet" href="stylesheets/reset.css">
-    <link rel="stylesheet" href="stylesheets/base.css">
     <link rel="stylesheet" href="stylesheets/app.css">
 
-    <script type="text/javascript" src="https://use.typekit.net/ctx1xjl.js"></script>
+    <script type="text/javascript" src="//use.typekit.net/ctx1xjl.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 <body>
-
-<!-- TODO: Look into 7-day swell models via lojolla surf -->
-<!-- TODO: Look into COASTAL WATERS FORECAST -->
-
-    <div class="container">
-        <div class="header">
-            <h1 class="logo">Santa Barbara<br/>Swell Check</h1>
+    <div class="header">
+            <h1 class="logo"><span class="first">Santa Barbara</span>&nbsp;<span class="second">Swell Check</span></h1>
             <div class="navigation">
                 <ul class="nav-list">
                     <li class="nav-item"><a class="nav-link" href="#seven-day-forecast">Seven Day Forecast</a></li>
                     <li class="nav-item"><a class="nav-link" href="#swell-direction">Harvest Buoy Swell Direction</a></li>
                     <li class="nav-item"><a class="nav-link" href="#regional-swell-models">SoCal Swell Model</a></li>
                     <li class="nav-item"><a class="nav-link" href="#local-swell-models">SB Swell Model</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#tide-chart">SB Swell Model</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tide-chart">Tide Chart</a></li>
                     <li class="nav-item"><a class="nav-link" href="#current-wind">Current Wind</a></li>
                     <li class="nav-item"><a class="nav-link" href="#offshore-wave-height">Offshore Wave Heights</a></li>
                 </ul>
             </div>
         </div>
-
-        <div class="content">
-
-            <section class="module">
+    <div class="content">
+            <section id="seven-day-forecast" class="module">
                 <h2 class="module-title">Seven Day Forecast</h2>
                 <div class="module-content">
                     <img src="http://cdip.ucsd.edu/recent/forecast/buoy_ww3.gd?stn=071&stream=p1&pub=public&tz=PDT&units=english"/>
@@ -83,6 +75,5 @@
                 </div>
             </section>
         </div>
-    </div>
 </body>
 </html>

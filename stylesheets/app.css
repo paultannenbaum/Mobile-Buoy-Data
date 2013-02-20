@@ -4,7 +4,9 @@ body {
   font-size: 14px;
   line-height: 18px;
   color: #313131;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  padding: 0;
+  margin: 0; }
 
 a {
   color: #0088cc;
@@ -38,9 +40,13 @@ a:focus {
   padding-top: 50px;
   background: #313131; }
   .header .logo {
-    padding-left: 25px;
+    padding: 0 25px;
     color: #f4f4f4;
-    line-height: 32px; }
+    font-size: 24px;
+    line-height: 16px; }
+    .header .logo .first, .header .logo .second {
+      display: block;
+      line-height: inherit; }
   .header .navigation {
     margin-top: 30px; }
     .header .navigation .nav-list {
@@ -83,3 +89,52 @@ a:focus {
       padding: 30px; }
       .content .module .module-content img {
         max-width: 100%; }
+
+/* Media Queries */
+@media all and (max-width: 960px) {
+  .header {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    text-align: center; }
+    .header .logo {
+      font-size: 18px;
+      line-height: 20px;
+      padding: 10px 0 0 0;
+      margin: 0 0 5px 0; }
+      .header .logo .first, .header .logo .second {
+        display: inline;
+        line-height: inherit; }
+    .header .navigation {
+      margin: 0;
+      padding: 0 0 10px 0;
+      width: 100%; }
+      .header .navigation .nav-list {
+        margin: 0;
+        padding: 0; }
+        .header .navigation .nav-list .nav-item {
+          display: inline; }
+          .header .navigation .nav-list .nav-item .nav-link {
+            margin: 5px 2px;
+            font-size: 14px;
+            line-height: 20px;
+            padding: 0 10px; }
+
+  .content {
+    margin: 0;
+    padding: 0; }
+    .content .module {
+      margin: 20px 0;
+      padding: 0;
+      width: 100%;
+      max-width: 100%; }
+      .content .module .module-title {
+        margin: 0;
+        padding: 10px;
+        font-size: 18px;
+        line-height: 22px; }
+      .content .module .module-content {
+        padding: 10px; } }

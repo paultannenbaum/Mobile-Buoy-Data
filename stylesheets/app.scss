@@ -5,6 +5,8 @@ body {
   line-height: 18px;
   color: #313131;
   background-color: #ffffff;
+  padding: 0;
+  margin: 0;
 }
 a {
   color: #0088cc;
@@ -40,9 +42,14 @@ a:focus {
   padding-top: 50px;
   background: #313131;
   .logo {
-    padding-left: 25px;
+    padding: 0 25px;
     color: #f4f4f4;
-    line-height: 32px;
+    font-size: 24px;
+    line-height: 16px;
+    .first, .second {
+      display: block;
+      line-height: inherit;
+    }
   }
 
   .navigation {
@@ -76,7 +83,6 @@ a:focus {
     }
   }
 }
-
 .content {
   margin-left: 300px;
   .module {
@@ -94,6 +100,66 @@ a:focus {
       padding: 30px;
       img {
         max-width: 100%;
+      }
+    }
+  }
+}
+
+/* Media Queries */
+@media all and (max-width: 960px) {
+  .header {
+    position: relative;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: auto;
+    text-align: center;
+    .logo {
+      font-size: 18px;
+      line-height: 20px;
+      padding: 10px 0 0 0;
+      margin: 0 0 5px 0;
+      .first, .second {
+        display: inline;
+        line-height: inherit;
+      }
+    }
+    .navigation {
+      margin: 0;
+      padding: 0 0 10px 0;
+      width: 100%;
+      .nav-list {
+        margin: 0;
+        padding: 0;
+        .nav-item {
+          display: inline;
+          .nav-link {
+            margin: 5px 2px;
+            font-size: 14px;
+            line-height: 20px;
+            padding: 0 10px;
+          }
+        }
+      }
+    }
+  }
+  .content {
+    margin: 0;
+    padding: 0;
+    .module {
+      margin: 20px 0;
+      padding: 0;
+      width: 100%;
+      max-width: 100%;
+      .module-title {
+        margin: 0;
+        padding: 10px;
+        font-size: 18px;
+        line-height: 22px;
+      }
+      .module-content {
+        padding: 10px;
       }
     }
   }
