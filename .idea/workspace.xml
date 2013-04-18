@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9fa6c86-6845-4469-82ab-0bd6efe04c4d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_header.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/index.html.haml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/layouts/layout.html.haml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/bullets.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/left-arrow-small.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/left-arrow.png" afterPath="" />
@@ -12,12 +19,41 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/right-arrow.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/rotator-black.png" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/timer-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/base.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/.sass-cache/9e599136195c0799f8d3f8e1facabf68a645bd19/app.scssc" afterPath="$PROJECT_DIR$/stylesheets/.sass-cache/9e599136195c0799f8d3f8e1facabf68a645bd19/app.scssc" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/foundation.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.event.move.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.event.swipe.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.accordion.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.alerts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.buttons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.clearing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.forms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.joyride.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.magellan.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.mediaQueryToggle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.navigation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.orbit.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.reveal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.tabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.tooltips.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.topbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.placeholder.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/modernizr.foundation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/.sass-cache/9e599136195c0799f8d3f8e1facabf68a645bd19/app.scssc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/app.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/vendor/bootstrap-responsive.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/vendor/bootstrap-responsive.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/vendor/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/vendor/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/vendor/foundation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/vendor/foundation.min.css" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stylesheets/app.scss" afterPath="$PROJECT_DIR$/source/css/app.css.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/stylesheets/reset.css" afterPath="$PROJECT_DIR$/source/js/all.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/app.css" afterPath="$PROJECT_DIR$/stylesheets/app.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stylesheets/app.scss" afterPath="$PROJECT_DIR$/stylesheets/app.scss" />
     </list>
     <ignored path="Mobile-Buoy-Data.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,44 +73,38 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="app.css.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/css/app.css.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="48" selection-start="254" selection-end="254" vertical-scroll-proportion="-4.48">
+            <state line="47" column="19" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
+                <element signature="e#2001#3049#0" expanded="false" />
+                <element signature="e#2730#3047#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.scss" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stylesheets/app.scss">
+      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="123" column="24" selection-start="2309" selection-end="2309" vertical-scroll-proportion="0.783105">
-              <folding>
-                <element signature="e#364#379#0" expanded="false" />
-                <element signature="e#414#468#0" expanded="false" />
-                <element signature="e#485#503#0" expanded="false" />
-                <element signature="e#836#1565#0" expanded="false" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
+      <file leaf-file-name="_header.html.haml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/_header.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="0" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1361315542000" expanded="true" signature="607:674" placeholder="{...}" />
-              </folding>
+            <state line="19" column="75" selection-start="720" selection-end="720" vertical-scroll-proportion="0.41931033">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reset.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/reset.css">
+      <file leaf-file-name="all.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/js/all.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -82,10 +112,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stylesheets/vendor/bootstrap.css">
+      <file leaf-file-name="config.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="778" column="0" selection-start="10859" selection-end="11011" vertical-scroll-proportion="0.0">
+            <state line="12" column="32" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="36" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html.haml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/layouts/layout.html.haml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="37" selection-start="426" selection-end="426" vertical-scroll-proportion="-8.32">
               <folding />
             </state>
           </provider>
@@ -104,21 +152,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/stylesheets/bootstrap.css" />
         <option value="$PROJECT_DIR$/stylesheets/reset.css" />
         <option value="$PROJECT_DIR$/stylesheets/utilities.css" />
         <option value="$PROJECT_DIR$/grunt.js" />
         <option value="$PROJECT_DIR$/stylesheets/app.css" />
         <option value="$PROJECT_DIR$/stylesheets/base.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/stylesheets/app.scss" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/source/layouts/layout.erb" />
+        <option value="$PROJECT_DIR$/source/index.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/config.rb" />
+        <option value="$PROJECT_DIR$/source/css/app.css.scss" />
+        <option value="$PROJECT_DIR$/source/_typekit_js.html.haml" />
+        <option value="$PROJECT_DIR$/source/layouts/layout.html.haml" />
+        <option value="$PROJECT_DIR$/source/index.html.haml" />
+        <option value="$PROJECT_DIR$/source/_header.html.haml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1680" />
-    <option name="height" value="1024" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -146,7 +202,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -175,24 +230,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
+              <option name="myItemId" value="source" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../sequitur" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/source" />
+      <recent name="$PROJECT_DIR$/source/javascripts" />
+      <recent name="$PROJECT_DIR$/source/stylesheets" />
       <recent name="$PROJECT_DIR$/javascripts/vendor" />
       <recent name="$PROJECT_DIR$/stylesheets/vendor" />
     </key>
@@ -235,13 +295,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1680" height="1024" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16475558" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16714491" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -309,123 +370,117 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
+    <entry file="file://$PROJECT_DIR$/source/css/app.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="882" selection-end="882" vertical-scroll-proportion="0.0">
+        <state line="108" column="34" selection-start="2001" selection-end="2001" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1361315542000" expanded="true" signature="607:674" placeholder="{...}" />
+            <element signature="e#2001#3049#0" expanded="false" />
+            <element signature="e#2730#3047#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/app.scss">
+    <entry file="file://$PROJECT_DIR$/source/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="6" selection-start="2760" selection-end="2760" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/js/all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/layouts/layout.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="7" selection-start="507" selection-end="507" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/css/app.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="21" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#364#379#0" expanded="false" />
-            <element signature="e#414#468#0" expanded="false" />
-            <element signature="e#485#503#0" expanded="false" />
-            <element signature="e#836#1565#0" expanded="false" />
+            <element signature="e#2001#3049#0" expanded="false" />
+            <element signature="e#2730#3047#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/reset.css">
+    <entry file="file://$PROJECT_DIR$/source/js/all.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/vendor/bootstrap.css">
+    <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="778" column="0" selection-start="10859" selection-end="11011" vertical-scroll-proportion="0.0">
+        <state line="5" column="36" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/config.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1462" selection-end="2699" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="17" selection-start="1505" selection-end="1505" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1361315542000" expanded="true" signature="607:674" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="27" selection-start="2506" selection-end="2506" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1361315542000" expanded="true" signature="607:674" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webide.jar!/resources/html5-schema/core-scripting.rnc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="19" selection-start="432" selection-end="433" vertical-scroll-proportion="0.2644628" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/vendor/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="778" column="0" selection-start="10859" selection-end="11011" vertical-scroll-proportion="0.0">
+        <state line="12" column="32" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/reset.css">
+    <entry file="file://$PROJECT_DIR$/source/css/app.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="19" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2001#3049#0" expanded="false" />
+            <element signature="e#2730#3047#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/app.css">
+    <entry file="file://$PROJECT_DIR$/source/layouts/layout.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="0" selection-start="668" selection-end="668" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1361315542000" expanded="true" signature="607:674" placeholder="{...}" />
-          </folding>
+        <state line="13" column="37" selection-start="426" selection-end="426" vertical-scroll-proportion="-8.32">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/source/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="48" selection-start="254" selection-end="254" vertical-scroll-proportion="-4.48">
-          <folding>
-            <element signature="tag#div#1;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/stylesheets/app.scss">
+    <entry file="file://$PROJECT_DIR$/source/_header.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="123" column="24" selection-start="2309" selection-end="2309" vertical-scroll-proportion="0.783105">
-          <folding>
-            <element signature="e#364#379#0" expanded="false" />
-            <element signature="e#414#468#0" expanded="false" />
-            <element signature="e#485#503#0" expanded="false" />
-            <element signature="e#836#1565#0" expanded="false" />
-          </folding>
+        <state line="19" column="75" selection-start="720" selection-end="720" vertical-scroll-proportion="0.41931033">
+          <folding />
         </state>
       </provider>
     </entry>
