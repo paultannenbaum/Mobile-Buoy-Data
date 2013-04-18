@@ -2,58 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9fa6c86-6845-4469-82ab-0bd6efe04c4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/_header.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/index.html.haml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/layouts/layout.html.haml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/bullets.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/left-arrow-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/left-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/mask-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/pause-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/right-arrow-small.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/right-arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/rotator-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/foundation/orbit/timer-black.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/foundation.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.event.move.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.event.swipe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.accordion.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.alerts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.buttons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.clearing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.forms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.joyride.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.magellan.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.mediaQueryToggle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.navigation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.orbit.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.reveal.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.tabs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.tooltips.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.foundation.topbar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/jquery.placeholder.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/javascripts/vendor/modernizr.foundation.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/.sass-cache/9e599136195c0799f8d3f8e1facabf68a645bd19/app.scssc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/vendor/bootstrap-responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/vendor/bootstrap-responsive.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/vendor/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/vendor/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/vendor/foundation.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/stylesheets/vendor/foundation.min.css" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/stylesheets/app.scss" afterPath="$PROJECT_DIR$/source/css/app.css.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/stylesheets/reset.css" afterPath="$PROJECT_DIR$/source/js/all.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.rb" afterPath="$PROJECT_DIR$/config.rb" />
     </list>
     <ignored path="Mobile-Buoy-Data.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,10 +44,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_header.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/_header.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="75" selection-start="720" selection-end="720" vertical-scroll-proportion="0.41931033">
+            <state line="3" column="28" selection-start="77" selection-end="77" vertical-scroll-proportion="-1.92">
               <folding />
             </state>
           </provider>
@@ -112,10 +62,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="config.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="32" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
+            <state line="17" column="13" selection-start="280" selection-end="280" vertical-scroll-proportion="0.36266667">
               <folding />
             </state>
           </provider>
@@ -162,12 +112,12 @@
         <option value="$PROJECT_DIR$/source/layouts/layout.erb" />
         <option value="$PROJECT_DIR$/source/index.html.erb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/config.rb" />
         <option value="$PROJECT_DIR$/source/css/app.css.scss" />
         <option value="$PROJECT_DIR$/source/_typekit_js.html.haml" />
         <option value="$PROJECT_DIR$/source/layouts/layout.html.haml" />
         <option value="$PROJECT_DIR$/source/index.html.haml" />
         <option value="$PROJECT_DIR$/source/_header.html.haml" />
+        <option value="$PROJECT_DIR$/config.rb" />
       </list>
     </option>
   </component>
@@ -439,13 +389,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="32" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/css/app.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="19" selection-start="735" selection-end="735" vertical-scroll-proportion="0.0">
@@ -479,7 +422,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/_header.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="75" selection-start="720" selection-end="720" vertical-scroll-proportion="0.41931033">
+        <state line="3" column="28" selection-start="77" selection-end="77" vertical-scroll-proportion="-1.92">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="13" selection-start="280" selection-end="280" vertical-scroll-proportion="0.36266667">
           <folding />
         </state>
       </provider>
