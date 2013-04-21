@@ -29,6 +29,7 @@
     - if environment == :build
       = stylesheet_link_tag "/surfcheck/css/app"
       = javascript_include_tag  "/surfcheck/js/modernizr"
+      %script{:src => "https://use.typekit.net/ctx1xjl.js", :type => "text/javascript"}
       :javascript
         try{Typekit.load();}catch(e){}
   %body
