@@ -3,12 +3,32 @@
   %head
     %meta{:charset => "utf-8"}/
     %title= data.page.title || "SB Swell Check"
-    %meta{:content => "width=device-width", :name => "viewport"}/
-    = stylesheet_link_tag "reset", "app"
+    %meta{:content => "True", :name => "HandheldFriendly"}/
+    %meta{:content => "320", :name => "MobileOptimized"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    %meta{:content => "on", "http-equiv" => "cleartype"}/
+
+
+    %link{:href => "img/touch/apple-touch-icon-144x144-precomposed.png", :rel => "apple-touch-icon-precomposed", :sizes => "144x144"}/
+    %link{:href => "img/touch/apple-touch-icon-114x114-precomposed.png", :rel => "apple-touch-icon-precomposed", :sizes => "114x114"}/
+    %link{:href => "img/touch/apple-touch-icon-72x72-precomposed.png", :rel => "apple-touch-icon-precomposed", :sizes => "72x72"}/
+    %link{:href => "img/touch/apple-touch-icon-57x57-precomposed.png", :rel => "apple-touch-icon-precomposed"}/
+    %link{:href => "img/touch/apple-touch-icon.png", :rel => "shortcut icon"}/
+    %link{:href => "favicon.ico", :rel => "icon", :type => "image/gif"}/
+
+    / Tile icon for Win8 (144x144 + tile color)
+    %meta{:content => "img/touch/apple-touch-icon-144x144-precomposed.png", :name => "msapplication-TileImage"}/
+    %meta{:content => "#222222", :name => "msapplication-TileColor"}/
+    %meta{:content => "yes", :name => "apple-mobile-web-app-capable"}/
+    %meta{:content => "black", :name => "apple-mobile-web-app-status-bar-style"}/
+    %meta{:content => "Swelly", :name => "apple-mobile-web-app-title"}/
+
+    = stylesheet_link_tag "normalize", "app"
+    = javascript_include_tag  "modernizr"
     %script{:src => "//use.typekit.net/ctx1xjl.js", :type => "text/javascript"}
     :javascript
       try{Typekit.load();}catch(e){}
   %body
     = partial 'header'
     = yield
-  = javascript_include_tag  "all"
+  = javascript_include_tag "zepto", "app", "analytics"
