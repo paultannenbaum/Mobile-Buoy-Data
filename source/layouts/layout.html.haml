@@ -23,12 +23,18 @@
     %meta{:content => "black", :name => "apple-mobile-web-app-status-bar-style"}/
     %meta{:content => "Swelly", :name => "apple-mobile-web-app-title"}/
 
-    = stylesheet_link_tag "normalize", "app"
-    = javascript_include_tag  "modernizr"
-    %script{:src => "//use.typekit.net/ctx1xjl.js", :type => "text/javascript"}
-    :javascript
-      try{Typekit.load();}catch(e){}
+    - if environment == :development
+      = stylesheet_link_tag "normalize", "main"
+      = javascript_include_tag  "modernizr"
+    - if environment == :build
+      = stylesheet_link_tag "/surfcheck/css/app"
+      = javascript_include_tag  "/surfcheck/js/modernizr"
+      :javascript
+        try{Typekit.load();}catch(e){}
   %body
     = partial 'header'
     = yield
-  = javascript_include_tag "zepto", "app", "analytics"
+  - if environment == :development
+    = javascript_include_tag "/js/zepto", "/js/main", "/js/analytics"
+  - if environment == :build
+    = javascript_include_tag  "/surfcheck/js/app"
