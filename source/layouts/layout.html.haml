@@ -24,7 +24,7 @@
     %meta{:content => "Swelly", :name => "apple-mobile-web-app-title"}/
 
     - if environment == :development
-      = stylesheet_link_tag "normalize", "main"
+      = stylesheet_link_tag "normalize", "add2home","main"
       = javascript_include_tag  "modernizr"
     - if environment == :build
       = stylesheet_link_tag "/surfcheck/css/app"
@@ -36,6 +36,6 @@
     = partial 'header'
     = yield
   - if environment == :development
-    = javascript_include_tag "/js/zepto", "/js/main", "/js/analytics"
+    = javascript_include_tag "zepto", "add2home","main", "analytics"
   - if environment == :build
     = javascript_include_tag  "/surfcheck/js/app"
