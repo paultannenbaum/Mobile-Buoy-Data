@@ -11,5 +11,9 @@
   },
   "author": "Paul Tannenbaum",
   "license": "BSD",
-  "description": "Mobile-Buoy-Data ================"
+  "description": "Mobile-Buoy-Data ================",
+  "dependencies": {
+    "cheerio": "~0.12.2",
+    "request": "~2.27.0"
+  }
 }
